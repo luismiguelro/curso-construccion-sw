@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\bin\Debug\suma-multiplicación.exe.config
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\bin\Debug\suma-multiplicación.exe
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\bin\Debug\suma-multiplicación.pdb
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\obj\Debug\suma-multiplicación.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\obj\Debug\suma-multiplicación.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\obj\Debug\suma-multiplicación.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\obj\Debug\suma-multiplicación.exe
+C:\Users\ESTUDIANTE\source\repos\suma-multiplicación\suma-multiplicación\obj\Debug\suma-multiplicación.pdb

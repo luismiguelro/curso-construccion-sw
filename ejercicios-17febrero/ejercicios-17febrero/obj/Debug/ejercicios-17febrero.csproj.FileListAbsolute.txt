@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\bin\Debug\ejercicios-17febrero.exe.config
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\bin\Debug\ejercicios-17febrero.exe
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\bin\Debug\ejercicios-17febrero.pdb
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\obj\Debug\ejercicios-17febrero.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\obj\Debug\ejercicios-17febrero.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\obj\Debug\ejercicios-17febrero.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\obj\Debug\ejercicios-17febrero.exe
+C:\Users\ESTUDIANTE\source\repos\ejercicios-17febrero\ejercicios-17febrero\obj\Debug\ejercicios-17febrero.pdb

@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\bin\Debug\ejercicio2-suma-producto.exe.config
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\bin\Debug\ejercicio2-suma-producto.exe
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\bin\Debug\ejercicio2-suma-producto.pdb
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\obj\Debug\ejercicio2-suma-producto.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\obj\Debug\ejercicio2-suma-producto.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\obj\Debug\ejercicio2-suma-producto.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\obj\Debug\ejercicio2-suma-producto.exe
+C:\Users\ESTUDIANTE\source\repos\ejercicio2-suma-producto\ejercicio2-suma-producto\obj\Debug\ejercicio2-suma-producto.pdb
