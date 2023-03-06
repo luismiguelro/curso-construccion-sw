@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\bin\Debug\clase-06-marzo+.exe.config
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\bin\Debug\clase-06-marzo+.exe
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\bin\Debug\clase-06-marzo+.pdb
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\obj\Debug\clase-06-marzo+.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\obj\Debug\clase-06-marzo+.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\obj\Debug\clase-06-marzo+.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\obj\Debug\clase-06-marzo+.exe
+C:\Users\ESTUDIANTE\source\repos\clase-06-marzo+\clase-06-marzo+\obj\Debug\clase-06-marzo+.pdb

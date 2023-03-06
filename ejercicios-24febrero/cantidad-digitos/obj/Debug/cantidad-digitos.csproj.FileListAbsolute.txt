@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\bin\Debug\cantidad-digitos.exe.config
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\bin\Debug\cantidad-digitos.exe
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\bin\Debug\cantidad-digitos.pdb
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\obj\Debug\cantidad-digitos.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\obj\Debug\cantidad-digitos.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\obj\Debug\cantidad-digitos.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\obj\Debug\cantidad-digitos.exe
+C:\Users\ESTUDIANTE\source\repos\cantidad-digitos\cantidad-digitos\obj\Debug\cantidad-digitos.pdb
