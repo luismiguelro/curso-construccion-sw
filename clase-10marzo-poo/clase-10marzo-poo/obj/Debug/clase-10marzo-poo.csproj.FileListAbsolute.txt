@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\bin\Debug\clase-10marzo-poo.exe.config
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\bin\Debug\clase-10marzo-poo.exe
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\bin\Debug\clase-10marzo-poo.pdb
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\obj\Debug\clase-10marzo-poo.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\obj\Debug\clase-10marzo-poo.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\obj\Debug\clase-10marzo-poo.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\obj\Debug\clase-10marzo-poo.exe
+C:\Users\ESTUDIANTE\source\repos\clase-10marzo-poo\clase-10marzo-poo\obj\Debug\clase-10marzo-poo.pdb
