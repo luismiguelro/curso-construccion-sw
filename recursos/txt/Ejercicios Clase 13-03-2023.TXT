@@ -1,0 +1,8 @@
+Problema 1:
+Se desea guardar los sueldos de 5 operarios.
+Según lo conocido deberíamos definir 5 variables si queremos tener en un cierto momento los 5 sueldos almacenados en memoria.
+Empleando un vector solo se requiere definir un único nombre y accedemos a cada elemento por medio del subíndice.
+
+Problema 2:
+Definir un vector de 5 componentes de tipo float que representen las alturas de 5 personas.
+Obtener el promedio de las mismas. Contar cuántas personas son más altas que el promedio y cuántas más bajas.

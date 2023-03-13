@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\bin\Debug\clase-13-marzo-V2.exe.config
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\bin\Debug\clase-13-marzo-V2.exe
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\bin\Debug\clase-13-marzo-V2.pdb
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\obj\Debug\clase-13-marzo-V2.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\obj\Debug\clase-13-marzo-V2.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\obj\Debug\clase-13-marzo-V2.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\obj\Debug\clase-13-marzo-V2.exe
+C:\Users\ESTUDIANTE\source\repos\clase-13-marzo-V2\clase-13-marzo-V2\obj\Debug\clase-13-marzo-V2.pdb
