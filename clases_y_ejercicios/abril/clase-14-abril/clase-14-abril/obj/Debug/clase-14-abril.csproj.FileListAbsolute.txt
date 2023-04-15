@@ -1,0 +1,8 @@
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\bin\Debug\clase-14-abril.exe.config
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\bin\Debug\clase-14-abril.exe
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\bin\Debug\clase-14-abril.pdb
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\obj\Debug\clase-14-abril.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\obj\Debug\clase-14-abril.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\obj\Debug\clase-14-abril.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\obj\Debug\clase-14-abril.exe
+C:\Users\ESTUDIANTE\source\repos\clase-14-abril\clase-14-abril\obj\Debug\clase-14-abril.pdb
