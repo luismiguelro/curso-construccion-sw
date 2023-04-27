@@ -1,0 +1,11 @@
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\bin\Debug\clase24-abril.exe.config
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\bin\Debug\clase24-abril.exe
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\bin\Debug\clase24-abril.pdb
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.csproj.SuggestedBindingRedirects.cache
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24_abril.Form1.resources
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24_abril.Properties.Resources.resources
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.csproj.GenerateResource.cache
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.exe
+C:\Users\ESTUDIANTE\source\repos\clase24-abril\clase24-abril\obj\Debug\clase24-abril.pdb
