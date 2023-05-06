@@ -77,10 +77,9 @@ namespace contacts_project
                 // iterar el read, leer adelante, no se devuelve
                 while (reader.Read())
                 {
-                    contacts.Add(new Contact()
+                    contacts.Add(new Contact
                     {
                         // setear propiedades
-                        id = int.Parse(reader["Id"].ToString()),
                         FirstName = reader["FirstName"].ToString(),
                         LastName = reader["LastName"].ToString(),
                         Phone = reader["Phone"].ToString(),

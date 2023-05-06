@@ -18,7 +18,7 @@ namespace contacts_project
 
         public Contact SaveContact(Contact contact)
         {
-            if(contact.id == 0)
+            if(contact.Id == 0)
             
                 _dataAccessLayer.InsertContact(contact);
 

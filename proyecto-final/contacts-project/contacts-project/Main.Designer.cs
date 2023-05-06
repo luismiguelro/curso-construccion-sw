@@ -3,12 +3,12 @@
     partial class Main
     {
         /// <summary>
-        ///  Required designer variable.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        ///  Clean up any resources being used.
+        /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -23,53 +23,75 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
             label1 = new Label();
-            gridContacts = new DataGridView();
-            idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            textBox1 = new TextBox();
+            btnSearch = new Button();
+            btnAdd = new Button();
+            dataGridView1 = new DataGridView();
             firstNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             lastNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             phoneDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             addressDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             contactBindingSource = new BindingSource(components);
-            txtSearch = new TextBox();
-            btnSearch = new Button();
-            btnAdd = new Button();
-            ((System.ComponentModel.ISupportInitialize)gridContacts).BeginInit();
+            contactBindingSource1 = new BindingSource(components);
+            btnRefresh = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)contactBindingSource1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            label1.Location = new Point(40, 51);
+            label1.Location = new Point(43, 38);
             label1.Name = "label1";
-            label1.Size = new Size(69, 25);
+            label1.Size = new Size(38, 15);
             label1.TabIndex = 0;
-            label1.Text = "Search";
+            label1.Text = "label1";
             // 
-            // gridContacts
+            // textBox1
             // 
-            gridContacts.AutoGenerateColumns = false;
-            gridContacts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridContacts.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn });
-            gridContacts.DataSource = contactBindingSource;
-            gridContacts.Location = new Point(40, 123);
-            gridContacts.Name = "gridContacts";
-            gridContacts.Size = new Size(717, 282);
-            gridContacts.TabIndex = 1;
+            textBox1.Location = new Point(132, 38);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(417, 23);
+            textBox1.TabIndex = 2;
             // 
-            // idDataGridViewTextBoxColumn
+            // btnSearch
             // 
-            idDataGridViewTextBoxColumn.DataPropertyName = "id";
-            idDataGridViewTextBoxColumn.HeaderText = "id";
-            idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            btnSearch.Location = new Point(571, 38);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(75, 23);
+            btnSearch.TabIndex = 3;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            // 
+            // btnAdd
+            // 
+            btnAdd.Location = new Point(673, 38);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(75, 23);
+            btnAdd.TabIndex = 4;
+            btnAdd.Text = "Add";
+            btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
+            // 
+            // dataGridView1
+            // 
+            dataGridView1.AutoGenerateColumns = false;
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn });
+            dataGridView1.DataSource = contactBindingSource;
+            dataGridView1.Location = new Point(132, 164);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowTemplate.Height = 25;
+            dataGridView1.Size = new Size(543, 187);
+            dataGridView1.TabIndex = 5;
             // 
             // firstNameDataGridViewTextBoxColumn
             // 
@@ -99,49 +121,36 @@
             // 
             contactBindingSource.DataSource = typeof(Contact);
             // 
-            // txtSearch
+            // contactBindingSource1
             // 
-            txtSearch.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSearch.Location = new Point(124, 48);
-            txtSearch.Name = "txtSearch";
-            txtSearch.Size = new Size(437, 32);
-            txtSearch.TabIndex = 2;
+            contactBindingSource1.DataSource = typeof(Contact);
             // 
-            // btnSearch
+            // btnRefresh
             // 
-            btnSearch.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            btnSearch.Location = new Point(579, 48);
-            btnSearch.Name = "btnSearch";
-            btnSearch.Size = new Size(86, 34);
-            btnSearch.TabIndex = 4;
-            btnSearch.Text = "Search";
-            btnSearch.UseVisualStyleBackColor = true;
-            // 
-            // btnAdd
-            // 
-            btnAdd.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAdd.Location = new Point(671, 48);
-            btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(86, 34);
-            btnAdd.TabIndex = 5;
-            btnAdd.Text = "Add";
-            btnAdd.UseVisualStyleBackColor = true;
-            btnAdd.Click += btnAdd_Click_1;
+            btnRefresh.Location = new Point(600, 135);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(75, 23);
+            btnRefresh.TabIndex = 6;
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += btnRefresh_Click;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnRefresh);
+            Controls.Add(dataGridView1);
             Controls.Add(btnAdd);
             Controls.Add(btnSearch);
-            Controls.Add(txtSearch);
-            Controls.Add(gridContacts);
+            Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "Main";
-            Text = "Contacts";
-            ((System.ComponentModel.ISupportInitialize)gridContacts).EndInit();
+            Text = "Main";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource).EndInit();
+            ((System.ComponentModel.ISupportInitialize)contactBindingSource1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -149,15 +158,17 @@
         #endregion
 
         private Label label1;
-        private DataGridView gridContacts;
-        private TextBox txtSearch;
+        private TextBox textBox1;
         private Button btnSearch;
         private Button btnAdd;
+        private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private BindingSource contactBindingSource;
+        private BindingSource contactBindingSource1;
+        private Button btnRefresh;
     }
 }
