@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycD24tKBzvg5alsd/XtOJxNsqq17AXpy3GubiL2edVVw8fEHc83dI3skibG6BaThszJMUfQr3IKlxUjCpTmdqQ==",
+  "dgSpecHash": "dyOWu4tyJX15cBofA726Xp3zb0byd7Xv2rCU7xTSak2k2iVdKCopvc9Z36nYelG4bdbt7L7w66ZMkc5HKBDXCA==",
   "success": true,
-  "projectFilePath": "D:\\contacts-project\\contacts-project\\contacts-project.csproj",
+  "projectFilePath": "D:\\course-csw-2023-1\\proyecto-final\\contacts-project\\contacts-project\\contacts-project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IYELY\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\IYELY\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

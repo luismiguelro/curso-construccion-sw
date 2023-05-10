@@ -26,21 +26,44 @@ namespace contacts_project
         private void OpenContacDetail()
         {
             // llamar segundo formulario
-            ContactDetails contact = new ContactDetails();
-            contact.ShowDialog();
+            ContactDetails contactDetails = new ContactDetails();
+            contactDetails.ShowDialog(this);
         }
 
 
         // funcion de cargar los contactos
-       
+
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             PopulateContacts();
         }
-        private void PopulateContacts()
+        public void PopulateContacts()
         {
             List<Contact> contacts = _bussinesLogicLayer.GetContacts();
             dataGridView1.DataSource = contacts;
         }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // Obtener celda que se ha clickeado
+            DataGridViewLinkCell cell = (DataGridViewLinkCell)dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex];
+
+            // validar que sea null
+            if (cell.Value.ToString() == "Edit")
+            {
+                ContactDetails contactDetails = new ContactDetails();
+                // crear un contacto nuevo y setear propiedades
+                contactDetails.LoadContact(new Contact
+                {
+                    Id = int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString()),
+                    FirstName = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString(),
+                    LastName = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString(),
+                    Phone = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString(),
+                    Address = dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString(),
+
+                });
+                contactDetails.ShowDialog(this);
+        }
     }
+}
 }

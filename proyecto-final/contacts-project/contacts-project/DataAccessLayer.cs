@@ -59,6 +59,42 @@ namespace contacts_project
                 conn.Close();
             }
         }
+        public void UpdateContact(Contact contact)
+        {
+            try
+            {
+                conn.Open();
+
+                //consulta
+                string query = "UPDATE contacts SET FirstName=@FirstName, LastName = @LastName, Phone = @Phone, Address = @Address  WHERE id = @Id";
+
+                SqlParameter id = new SqlParameter("@Id", contact.Id);
+                SqlParameter firstName = new SqlParameter("@FirstName", contact.FirstName);
+                SqlParameter lastName = new SqlParameter("@LastName", contact.LastName);
+                SqlParameter phone = new SqlParameter("@Phone", contact.Phone);
+                SqlParameter address = new SqlParameter("@Address", contact.Address);
+
+                // consulta y conexion
+                SqlCommand command = new SqlCommand(query, conn);
+
+                // agregar parametro
+                command.Parameters.Add(id);
+                command.Parameters.Add(firstName);
+                command.Parameters.Add(lastName);
+                command.Parameters.Add(phone);
+                command.Parameters.Add(address);
+
+                // devolver cantidad de filas afectadas 
+                command.ExecuteNonQuery();
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally { conn.Close(); }
+
+        }
 
         public List<Contact> GetContacts()
         {
@@ -67,7 +103,7 @@ namespace contacts_project
             {
                 conn.Open();
 
-                string query = "SELECT FirstName, LastName, Phone, Address  FROM Contacts";
+                string query = "SELECT id, FirstName, LastName, Phone, Address  FROM Contacts";
 
                 SqlCommand command = new SqlCommand(query, conn);
 
@@ -80,6 +116,7 @@ namespace contacts_project
                     contacts.Add(new Contact
                     {
                         // setear propiedades
+                        Id =  (int)reader["id"],
                         FirstName = reader["FirstName"].ToString(),
                         LastName = reader["LastName"].ToString(),
                         Phone = reader["Phone"].ToString(),

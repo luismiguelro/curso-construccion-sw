@@ -34,13 +34,15 @@
             btnSearch = new Button();
             btnAdd = new Button();
             dataGridView1 = new DataGridView();
+            contactBindingSource = new BindingSource(components);
+            contactBindingSource1 = new BindingSource(components);
+            btnRefresh = new Button();
+            Id = new DataGridViewTextBoxColumn();
             firstNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             lastNameDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             phoneDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             addressDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            contactBindingSource = new BindingSource(components);
-            contactBindingSource1 = new BindingSource(components);
-            btnRefresh = new Button();
+            Edit = new DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource1).BeginInit();
@@ -85,13 +87,38 @@
             // 
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn, Edit });
             dataGridView1.DataSource = contactBindingSource;
-            dataGridView1.Location = new Point(132, 164);
+            dataGridView1.Location = new Point(43, 123);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(543, 187);
+            dataGridView1.Size = new Size(678, 362);
             dataGridView1.TabIndex = 5;
+            dataGridView1.CellContentClick += dataGridView1_CellContentClick;
+            // 
+            // contactBindingSource
+            // 
+            contactBindingSource.DataSource = typeof(Contact);
+            // 
+            // contactBindingSource1
+            // 
+            contactBindingSource1.DataSource = typeof(Contact);
+            // 
+            // btnRefresh
+            // 
+            btnRefresh.Location = new Point(646, 94);
+            btnRefresh.Name = "btnRefresh";
+            btnRefresh.Size = new Size(75, 23);
+            btnRefresh.TabIndex = 6;
+            btnRefresh.Text = "Refresh";
+            btnRefresh.UseVisualStyleBackColor = true;
+            btnRefresh.Click += btnRefresh_Click;
+            // 
+            // Id
+            // 
+            Id.DataPropertyName = "Id";
+            Id.HeaderText = "Id";
+            Id.Name = "Id";
             // 
             // firstNameDataGridViewTextBoxColumn
             // 
@@ -117,29 +144,19 @@
             addressDataGridViewTextBoxColumn.HeaderText = "Address";
             addressDataGridViewTextBoxColumn.Name = "addressDataGridViewTextBoxColumn";
             // 
-            // contactBindingSource
+            // Edit
             // 
-            contactBindingSource.DataSource = typeof(Contact);
-            // 
-            // contactBindingSource1
-            // 
-            contactBindingSource1.DataSource = typeof(Contact);
-            // 
-            // btnRefresh
-            // 
-            btnRefresh.Location = new Point(600, 135);
-            btnRefresh.Name = "btnRefresh";
-            btnRefresh.Size = new Size(75, 23);
-            btnRefresh.TabIndex = 6;
-            btnRefresh.Text = "Refresh";
-            btnRefresh.UseVisualStyleBackColor = true;
-            btnRefresh.Click += btnRefresh_Click;
+            Edit.HeaderText = "Edit";
+            Edit.Name = "Edit";
+            Edit.ReadOnly = true;
+            Edit.Text = "Edit";
+            Edit.UseColumnTextForLinkValue = true;
             // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 497);
             Controls.Add(btnRefresh);
             Controls.Add(dataGridView1);
             Controls.Add(btnAdd);
@@ -147,7 +164,7 @@
             Controls.Add(textBox1);
             Controls.Add(label1);
             Name = "Main";
-            Text = "Main";
+            Text = "Contacts";
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource).EndInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource1).EndInit();
@@ -163,12 +180,14 @@
         private Button btnAdd;
         private DataGridView dataGridView1;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private BindingSource contactBindingSource;
+        private BindingSource contactBindingSource1;
+        private Button btnRefresh;
+        private DataGridViewTextBoxColumn Id;
         private DataGridViewTextBoxColumn firstNameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn lastNameDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
-        private BindingSource contactBindingSource;
-        private BindingSource contactBindingSource1;
-        private Button btnRefresh;
+        private DataGridViewLinkColumn Edit;
     }
 }

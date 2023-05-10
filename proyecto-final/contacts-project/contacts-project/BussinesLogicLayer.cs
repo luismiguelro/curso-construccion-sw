@@ -18,12 +18,18 @@ namespace contacts_project
 
         public Contact SaveContact(Contact contact)
         {
-            if(contact.Id == 0)
-            
+            if (contact.Id == 0)
+
                 _dataAccessLayer.InsertContact(contact);
 
-                return contact;
-            
+
+            else
+                _dataAccessLayer.UpdateContact(contact); 
+
+           
+            return contact;
+
+
         }
 
         // traer los contactos

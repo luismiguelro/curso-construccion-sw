@@ -14,6 +14,7 @@ namespace contacts_project
     {
         // variable global
         private BussinesLogicLayer _bussinesLogicLayer;
+        private Contact _contact;
         public ContactDetails()
         {
             InitializeComponent();
@@ -30,6 +31,11 @@ namespace contacts_project
         {
 
             SaveContact();
+            // cerrar form
+            this.Close();
+
+            // actualizar contactos en la grilla
+            ((Main)this.Owner).PopulateContacts();
 
         }
         private void SaveContact()
@@ -43,8 +49,34 @@ namespace contacts_project
             contact.Phone = txtPhone.Text;
             contact.Address = txtAddress.Text;
 
+            // escenario para el edit
+            contact.Id = _contact !=null ? _contact.Id : 0;
+
             // lamar capa negocios
             _bussinesLogicLayer.SaveContact(contact);
+        }
+        public void LoadContact(Contact contact)
+        {
+            _contact = contact;
+            if (contact != null)
+            {
+                ClearForm();
+                // cargar el contacto a editar
+                txtFirstName.Text = contact.FirstName;
+                txtLastName.Text = contact.LastName;
+                txtPhone.Text = contact.Phone;
+                txtAddress.Text = contact.Address;
+            }
+        }
+
+        // limpiar camps
+        private void ClearForm()
+        {
+            
+            txtFirstName.Text = string.Empty;
+            txtLastName.Text = string.Empty;
+            txtPhone.Text = string.Empty;
+            txtAddress.Text = string.Empty;
         }
     }
 }
