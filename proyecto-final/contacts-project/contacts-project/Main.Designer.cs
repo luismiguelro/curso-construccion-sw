@@ -43,6 +43,7 @@
             phoneDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             addressDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             Edit = new DataGridViewLinkColumn();
+            Delete = new DataGridViewLinkColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)contactBindingSource1).BeginInit();
@@ -87,12 +88,12 @@
             // 
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn, Edit });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Id, firstNameDataGridViewTextBoxColumn, lastNameDataGridViewTextBoxColumn, phoneDataGridViewTextBoxColumn, addressDataGridViewTextBoxColumn, Edit, Delete });
             dataGridView1.DataSource = contactBindingSource;
-            dataGridView1.Location = new Point(43, 123);
+            dataGridView1.Location = new Point(31, 123);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(678, 362);
+            dataGridView1.Size = new Size(745, 362);
             dataGridView1.TabIndex = 5;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             // 
@@ -152,6 +153,14 @@
             Edit.Text = "Edit";
             Edit.UseColumnTextForLinkValue = true;
             // 
+            // Delete
+            // 
+            Delete.HeaderText = "Delete";
+            Delete.Name = "Delete";
+            Delete.ReadOnly = true;
+            Delete.Text = "Delete";
+            Delete.UseColumnTextForLinkValue = true;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -189,5 +198,6 @@
         private DataGridViewTextBoxColumn phoneDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn addressDataGridViewTextBoxColumn;
         private DataGridViewLinkColumn Edit;
+        private DataGridViewLinkColumn Delete;
     }
 }

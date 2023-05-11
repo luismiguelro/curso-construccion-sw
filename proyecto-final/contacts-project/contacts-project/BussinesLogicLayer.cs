@@ -37,5 +37,10 @@ namespace contacts_project
         {
             return _dataAccessLayer.GetContacts();
         }
+
+        public void DeleteContact(int id)
+        {
+            _dataAccessLayer.DeleteContact(id);
+        }
     }
 }

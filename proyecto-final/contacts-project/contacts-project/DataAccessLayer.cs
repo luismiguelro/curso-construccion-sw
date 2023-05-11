@@ -95,6 +95,28 @@ namespace contacts_project
             finally { conn.Close(); }
 
         }
+        public void DeleteContact(int id) {
+            try
+            {
+                conn.Open();
+                string query = "DELETE FROM contacts WHERE id = @Id";
+                // consulta y conexion
+                SqlCommand command = new SqlCommand(query, conn);
+                command.Parameters.Add(new SqlParameter("@Id",id));
+
+                command.ExecuteNonQuery();
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
 
         public List<Contact> GetContacts()
         {
@@ -137,4 +159,5 @@ namespace contacts_project
             return contacts;
         }
     }
+
 }
