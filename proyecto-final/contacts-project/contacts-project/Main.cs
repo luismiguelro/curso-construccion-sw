@@ -63,7 +63,9 @@ namespace contacts_project
 
                 });
                 contactDetails.ShowDialog(this);
-            } else if(cell.Value.ToString() == "Delete") {
+            }
+            else if (cell.Value.ToString() == "Delete")
+            {
 
                 DeleteContact(int.Parse(dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString()));
                 PopulateContacts();
@@ -72,6 +74,11 @@ namespace contacts_project
         private void DeleteContact(int id)
         {
             _bussinesLogicLayer.DeleteContact(id);
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -50,7 +50,7 @@ namespace contacts_project
             contact.Address = txtAddress.Text;
 
             // escenario para el edit
-            contact.Id = _contact !=null ? _contact.Id : 0;
+            contact.Id = _contact != null ? _contact.Id : 0;
 
             // lamar capa negocios
             _bussinesLogicLayer.SaveContact(contact);
@@ -72,7 +72,7 @@ namespace contacts_project
         // limpiar camps
         private void ClearForm()
         {
-            
+
             txtFirstName.Text = string.Empty;
             txtLastName.Text = string.Empty;
             txtPhone.Text = string.Empty;
