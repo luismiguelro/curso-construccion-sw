@@ -20,7 +20,7 @@ Además,tambie se ve base de datos utilizando SQL Server. Algunos temas incluyen
 - Clases_y_Ejercicios: Aquí se encuentran las clases y ejercicios adicionales para practicar los conceptos aprendidos. 📚💪
 - Recursos: Esta carpeta contiene material adicional, como imagenes, ejercicios, etc. 📚🔗
 - Talleres: En esta carpeta se encuentran los talleres prácticos realizados en clase. 🛠️💡
-- Proyecto_Final: Aquí se encuentra el proyecto final del curso, que integra todos los conocimientos adquiridos, donde se crea un CRUD en C# con conexión a SQL Server. 🚀🏆
+- [Proyecto_Final: Aquí](https://github.com/luismiguelro/curso-construccion-sw/tree/main/proyecto-final/contacts-project) se encuentra el proyecto final del curso, que integra todos los conocimientos adquiridos, donde se crea un CRUD en C# con conexión a SQL Server. 🚀🏆
 
 <div style="text-align: center">
 	<img src="./assets/readme/gif-game.gif" alt="Screenshot del juego">
